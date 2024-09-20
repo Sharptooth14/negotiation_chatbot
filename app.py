@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 
-openai.api_key = "sk-ejARedkRC4Aau-S8M62HTg6xu_MCkFBkepIRAGX1J-T3BlbkFJjdEJnICAqGyMzlPe81KPaKtYyvAPZsOe6EP0zTe64A" #API_KEY
+openai.api_key = "API_KEY" #API_KEY
 
 
 app = Flask(__name__)
